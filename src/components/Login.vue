@@ -63,10 +63,10 @@ const resetForm = (formEl: FormInstance | undefined) => {
   if (!formEl) return
   formEl.resetFields()
 }
-const ws = new WebSocket('ws://192.168.31.208:8082/ffw/test/akacap669')
-ws.onmessage = function (msg:string) {
-  console.log(msg)
-}
+// const ws = new WebSocket('ws://192.168.31.208:8082/ffw/test/akacap669')
+// ws.onmessage = function (msg:string) {
+//   console.log(msg)
+// }
 // import bcrypt from 'bcryptjs'
 // var salt = bcrypt.genSaltSync(12)
 // var password = bcrypt.hashSync('absdcc',salt)

@@ -24,3 +24,22 @@ export function Auth(data:Auth) {
         data
     })
 }
+
+export function T0() {
+    return request({
+        url:'http://mockjs/test/mock/t0',
+        method:"post",
+    })
+}
+export function T1() {
+    return request({
+        url:'http://mockjs/test/mock/t1',
+        method:"post",
+    })
+}
+export function T2() {
+    return request({
+        url:'http://mockjs/test/mock/t2',
+        method:"post",
+    })
+}

@@ -1,0 +1,30 @@
+#e0 {
+  display: flex;
+  flex-direction: row;
+  width: 100% ;
+  #f1 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+
+    #bc0 {
+      height: 30px;
+    }
+
+    #bc1 {
+      flex: 1;
+    }
+
+    #bc2 {
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  #f2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
