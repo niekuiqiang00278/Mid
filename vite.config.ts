@@ -23,16 +23,11 @@ export default defineConfig({
     https: false,
     cors: true,
     proxy: {
-      // '/client':{
-      //     target: 'http://192.168.31.123:8889',
-      //     changeOrigin: true,
-      //     rewrite: (path) => path.replace(/^\/api/, '')
-      // },
-      // '/api': {
-      //     target: 'http://192.168.xxx.xxx:xxxx', //代理接口
-      //     changeOrigin: true,
-      //     rewrite: (path) => path.replace(/^\/api/, '')
-      // }
+      '/god': {
+        target: 'http://192.168.31.208:8082',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '')
+      },
     }
   }
 })

@@ -25,9 +25,9 @@ export function Auth(data:Auth) {
     })
 }
 
-export function T0() {
+export function Depshow() {
     return request({
-        url:'http://mockjs/test/mock/t0',
+        url:'/god/depshow',
         method:"post",
     })
 }
